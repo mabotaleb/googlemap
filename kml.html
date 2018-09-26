@@ -24,18 +24,18 @@
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 11,
-          center: {lat: 41.876, lng: -87.624}
+          zoom: 8,
+          center: {lat: 30.186090, lng: 31.339224}
         });
 
         var ctaLayer = new google.maps.KmlLayer({
-          url: 'http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml',
+          url: 'https://github.com/mabotaleb/googlemap/blob/master/Heart%20Shape%20Philips%20(Final%20Draft%20-%20Google%20Earth).kml',
           map: map
         });
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVC3n96Y3Ghs6pcgrI8bJylzhKOcOq0Sw&callback=initMap">
     </script>
   </body>
 </html>
